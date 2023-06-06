@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Monomaniac+One&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    margin: 0;
+}
+
+.header, .header li, .header ul li, .header a {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 5, 255);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white;
+}
+
+.header, .header a {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
